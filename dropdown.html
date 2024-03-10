@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- drop down  flowbit CDN  -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <!-- tailwind cdn  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="mx-auto h-full max-w-[1380px]">
+      <!-- drop down  -->
+      <div class="flex items-center gap-3">
+        <img src="./images/icons/menu.png" alt="" />
+        <button
+          id="dropdownHoverButton"
+          data-dropdown-toggle="dropdownHover"
+          data-dropdown-trigger="hover"
+          class="flex items-center gap-3"
+          type="button"
+        >
+          All Categories
+          <img src="./images/icons/down_arrow.png" />
+        </button>
+      </div>
+
+      <!-- Dropdown menu -->
+      <div class="mx-auto max-w-[1380px] h-full">
+        <div id="dropdownHover" class="divide-y rounded-lg shadow w-[300px]">
+          <ul
+            class="py-2 text-sm text-gray-700 dark:text-gray-200"
+            aria-labelledby="dropdownHoverButton"
+          >
+            <li class="flex items-center pl-4 gap-20 text-sm font-medium">
+              <div class="flex items-center">
+                <a href="#">
+                  <img
+                    class="w-[20px] h-[20px]"
+                    src="./images/icons/apple.png"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Fruits & Vegetables</a
+                >
+              </div>
+
+              <a href="#">
+                <img src="./images/icons/right_arrow.png" alt="" />
+              </a>
+            </li>
+
+            <li class="flex items-center pl-4 gap-20 text-sm font-medium">
+              <div class="flex items-center">
+                <a href="#">
+                  <img
+                    class="w-[20px] h-[20px]"
+                    src="./images/icons/meat.png"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Meats & Seafood</a
+                >
+              </div>
+
+              <a href="#">
+                <img
+                  class="pl-[15px]"
+                  src="./images/icons/right_arrow.png"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="flex items-center pl-4 gap-20 text-sm font-medium">
+              <div class="flex items-center">
+                <a href="#">
+                  <img class="w-[20px] h-[20px]" src="./images/icons/egg.png" />
+                </a>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Breaksfast & Dairy</a
+                >
+              </div>
+
+              <a href="#">
+                <img
+                  class="pl-[6px]"
+                  src="./images/icons/right_arrow.png"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="flex items-center pl-4 gap-20 text-sm font-medium">
+              <div class="flex items-center">
+                <a href="#">
+                  <img
+                    class="w-[20px] h-[20px]"
+                    src="./images/icons/bread.png"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Breads & Bakery</a
+                >
+              </div>
+
+              <a href="#">
+                <img
+                  class="pl-[17px]"
+                  src="./images/icons/right_arrow.png"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="flex items-center pl-4 gap-20 text-sm font-medium">
+              <div class="flex items-center">
+                <a href="#">
+                  <img class="w-[20px] h-[20px]" src="./images/icons/tea.png" />
+                </a>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Beverages</a
+                >
+              </div>
+
+              <a href="#">
+                <img
+                  class="pl-[57px]"
+                  src="./images/icons/right_arrow.png"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="flex items-center pl-4 gap-20 text-sm font-medium">
+              <div class="flex items-center">
+                <a href="#">
+                  <img class="w-[20px] h-[20px]" src="./images/icons/ice.png" />
+                </a>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Frozen Foods</a
+                >
+              </div>
+
+              <a href="#">
+                <img
+                  class="pl-[38px]"
+                  src="./images/icons/right_arrow.png"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="flex items-center pl-4 gap-20 text-sm font-medium">
+              <div class="flex items-center">
+                <a href="#">
+                  <img
+                    class="w-[20px] h-[20px]"
+                    src="./images/icons/biscuit.png"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Biscuits & Snacks</a
+                >
+              </div>
+
+              <a href="#">
+                <img
+                  class="pl-[10px]"
+                  src="./images/icons/right_arrow.png"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="flex items-center pl-4 gap-20 text-sm font-medium">
+              <div class="flex items-center">
+                <a href="#">
+                  <img
+                    class="w-[20px] h-[20px]"
+                    src="./images/icons/tea_pata.png"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Grocery & Staples</a
+                >
+              </div>
+
+              <a href="#">
+                <img
+                  class="pl-[8px]"
+                  src="./images/icons/right_arrow.png"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="flex items-center pl-4 gap-20 text-sm font-medium">
+              <div class="flex items-center">
+                <a href="#">
+                  <img
+                    class="w-[20px] h-[20px]"
+                    src="./images/icons/color_brush.png"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Household Needs</a
+                >
+              </div>
+
+              <a href="#">
+                <img
+                  class="pl-[8px]"
+                  src="./images/icons/right_arrow.png"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="flex items-center pl-4 gap-20 text-sm font-medium">
+              <div class="flex items-center">
+                <a href="#">
+                  <img
+                    class="w-[20px] h-[20px]"
+                    src="./images/icons/tissue.png"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Healthcare</a
+                >
+              </div>
+
+              <a href="#">
+                <img
+                  class="pl-[55px]"
+                  src="./images/icons/right_arrow.png"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="flex items-center pl-4 gap-20 text-sm font-medium">
+              <div class="flex items-center">
+                <a href="#">
+                  <img
+                    class="w-[20px] h-[20px]"
+                    src="./images/icons/baby.png"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Baby & Pregnancy</a
+                >
+              </div>
+
+              <a href="#">
+                <img
+                  class="pl-[6px]"
+                  src="./images/icons/right_arrow.png"
+                  alt=""
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+  </body>
+</html>
